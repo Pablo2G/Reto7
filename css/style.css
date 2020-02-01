@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    position: relative;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../img/fondoepic.jpg");
+  
+    /* Full height */
+    height: 100%;
+    
+    opacity: 0.65;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    margin: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    color: white;
+}
+
+input {
+    width : 150px;
+    margin: 0;
+  
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            box-sizing: border-box;
+}
+
+.button{
+    margin-top: 50px;
+    background-color: blueviolet;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: rgb(200,43, 226);
+
+}
+
+  .registro {
+    background-color: rgb(138,43, 226);
+    opacity: 0.6;
+    text-align: center;
+    float: left;
+    opacity: 2;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 17px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
